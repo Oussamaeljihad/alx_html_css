@@ -1,5 +1,127 @@
-/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #f9f9f9;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #071629;
+  color: white;
+}
+
+/* HEADER */
+header {
+  background-image: url('header.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.tags span {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero button {
+  margin-top: 30px;
+  padding: 15px 35px;
+  background-color: #C271FF;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* PROS SECTION */
+.pros {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.pros h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.pros h2 span {
+  color: #C271FF;
+  font-weight: 700;
+}
+
+/* INSTRUCTORS */
+.instructors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.instructor {
+  text-align: center;
+  max-width: 150px;
+}
+
+.instructor img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.instructor h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.instructor p {
+  font-size: 12px;
+  font-style: italic;
+  color: #D8D8D8;
+  line-height: 1.4;
 }
