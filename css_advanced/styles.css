@@ -394,3 +394,68 @@ nav ul li a {
   color: #999;
   margin-top: 5px;
 }
+/* ========== Free Membership Section ========== */
+.membership {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.membership h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.membership h2 span {
+  color: #C271FF;
+  font-weight: 600;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.feature {
+  max-width: 200px;
+}
+
+.feature img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #D8D8D8;
+  line-height: 1.6;
+}
+
+/* Reuse button style */
+.membership .cta-button {
+  background: #C271FF;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.membership .cta-button:hover {
+  background: #a452dd;
+}
