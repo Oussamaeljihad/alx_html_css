@@ -171,3 +171,226 @@ nav ul li a {
   font-style: italic;
   text-align: left;
 }
+/* ========== Tutorials Section ========== */
+.tutorials {
+  padding: 80px 40px;
+  background-color: white;
+  color: #071629;
+  text-align: center;
+}
+
+.tutorials h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.tutorials h2 span {
+  color: #C271FF;
+  font-weight: 600;
+}
+
+/* Grid of tutorials */
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card */
+.tutorial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Thumbnail with overlay play icon */
+.thumb {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.thumb img {
+  width: 100%;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #C271FF;
+  color: white;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tutorial content */
+.tutorial-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Instructor */
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #C271FF;
+}
+
+/* Rating + duration */
+.rating {
+  color: #C271FF;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.duration {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+}
+
+/* ========== Tutorials Section ========== */
+.tutorials {
+  padding: 80px 40px;
+  background-color: white;
+  color: #071629;
+  text-align: center;
+}
+
+.tutorials h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.tutorials h2 span {
+  color: #C271FF;
+  font-weight: 600;
+}
+
+/* Grid of tutorials */
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card */
+.tutorial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Thumbnail with overlay play icon */
+.thumb {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.thumb img {
+  width: 100%;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #C271FF;
+  color: white;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tutorial content */
+.tutorial-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Instructor */
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #C271FF;
+}
+
+/* Rating + duration */
+.rating {
+  color: #C271FF;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.duration {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+}
